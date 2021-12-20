@@ -1,0 +1,159 @@
+body{
+  background-color: green;
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden;
+}
+
+.box{
+  z-index: 9;
+  background-color: #C0C0C0;
+  border-width: 3px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  border-style:solid;
+  position: absolute;
+}
+
+.main_box{
+ width: 900px; /*moet in px*/
+ z-index: 20;
+}
+
+.GG_box{
+  width: 500px; /*moet in px*/
+  visibility: hidden;
+  z-index: 21;
+ }
+ 
+
+.boxheader{
+  z-index: 10;
+  height:18px;
+  background:#000080;
+  color:#FFF;
+  padding-left: 3px; 
+  width: 99.65%;
+  cursor: move;
+}
+
+.title_box_button{
+  float:right;
+  margin:2px 2px 2px 0;
+  width:14px;
+  height:13.5px;
+  background:#C0C0C0;
+  border-width:1px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  padding: 0px;
+  font-size:9px;
+  font-weight:bold;
+  font-family:Tahoma;
+  text-align:center;
+  z-index: 11;
+}
+
+.box_body{
+  padding: 10px;
+  font-size: 25px;
+}
+
+.main_box_body{
+  height: 400px;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.normal{
+  font-size: 15px;
+}
+
+.credit{
+  font-size: 15px;
+  position: relative;
+  left: 60%
+}
+
+.GG_box_body{
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 530px;
+}
+
+
+.voorblad_img{
+  border-width: 1.5px;
+  border-color:#808080 #FFFFFF #FFFFFF #808080;
+  border-style:solid;
+}
+
+.denkendegriek{
+  width: 500px;
+  position: relative;
+  float:right;
+}
+
+.GedachtenGedruktVoorblad{
+  height: 500px;
+}
+
+.home_button{
+  position: fixed;
+  top: 10px;
+  width: 200px;
+}
+
+.home_button_image{
+  width: 100px;
+}
+
+.home_button_text{
+  color: white; 
+  font-size: 25px;
+}
+
+.GG_button{
+  position: fixed;
+  top: 500px;
+  width: 200px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.menubar{
+  z-index: 100;
+  width: 100%;
+  height: 50px;
+  background-color: #C0C0C0;
+  border-width: 3px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  border-style:solid;
+  position: absolute;
+  bottom: 0%;
+}
+
+.time{
+  width: 100px;
+  height: 30px;
+  top: 8.5px; /* (menubar.height - time.height)/2 - time.border-width*/
+  right: 8.5px;
+  background-color: #C0C0C0;
+  border-width: 1.5px;
+  border-color:#808080 #FFFFFF #FFFFFF #808080;
+  border-style:solid;
+  position: relative;
+  float: right;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.time_text{
+  color: black;
+  line-height: 30px; /*moet hetzelfde zijn als time.height*/
+  font-size: 30px;
+}
